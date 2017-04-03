@@ -1,0 +1,20 @@
+{
+  "name": "kavr",
+  "version": "0.0.1",
+  "description": "wrappers for three js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./lib/index.js -o ./dist/bundle.kavr.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kaop": "^2.7.6",
+    "three": "^0.84.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0"
+  }
+}
